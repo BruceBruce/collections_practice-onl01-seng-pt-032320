@@ -31,4 +31,6 @@ def kesha_maker(array)
     word_array = word_array.split ""
     word_array[2] = "$"
     kesha = word_array.join
-    
+  end
+  kesha
+end
