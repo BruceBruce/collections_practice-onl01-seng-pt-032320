@@ -12,4 +12,5 @@ def sort_array_char_count(array)
   array = ["dogs", "cat", "Horses"]
   array.sort do |left, right|
     left.length <=> right.length 
+  end
 end
